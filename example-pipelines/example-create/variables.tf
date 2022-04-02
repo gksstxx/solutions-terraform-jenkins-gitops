@@ -30,13 +30,13 @@ variable "environment" {
 variable "subnet1_region" {
   type        = string
   description = "GCP Region where first subnet will be created"
-  default     = "us-central1"
+  default     = "asia-northeast1"
 }
 
 variable "subnet1_zone" {
   type        = string
   description = "GCP Zone within Subnet1 Region where GCE instance will be created"
-  default     = "us-central1-a"
+  default     = "asia-northeast1-a"
 }
 
 variable "subnet1_cidr" {
