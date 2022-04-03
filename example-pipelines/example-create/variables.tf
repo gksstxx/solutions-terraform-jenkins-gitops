@@ -18,7 +18,7 @@
 variable "project_id" {
   type        = string
   description = "Project ID of GCP project to be used"
-  default     = ""
+  default     = "test-2022-01"
 }
 
 variable "environment" {
